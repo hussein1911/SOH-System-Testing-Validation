@@ -20,6 +20,8 @@ Includes visual comparison plots and structured test reports for regression vali
 ## 🧩 Signals (typical)
 `VOLTAGE, CURRENT, MILEAGE, SPEED, IGNITION, SOC_DISPLAY, SOC_REAL`
 
+The original project was tested and managed using **YouTrack** for agile tracking and **TestRail** for test case management.
+
 
 ## 📁 Project Structure
 ev-soh-signal-validation/
