@@ -1,2 +1,2 @@
-# SOH-System-Testing-Validation
-Time-series alignment &amp; signal validation framework for EV battery SoH system testing (lag optimization, resampling, failure mode checks, plots)
+# QA: SOH-System-Testing-Validation
+A Python-based validation framework for Electric Vehicle (EV) battery State-of-Health (SoH) testing.It performs automatic alignment between real and emulated battery signals using optimal lag estimation, resampling, and interpolation, then detects discrepancies through amplitude and sample-rate checks.Includes visual comparison plots and structured test reports for regression validation and HiL analysis
