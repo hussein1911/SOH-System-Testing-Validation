@@ -5,6 +5,22 @@ It performs automatic alignment between real and emulated battery signals using 
 
 Includes visual comparison plots and structured test reports for regression validation and HiL analysis.
 
+
+## ✨ Features
+- **Numeric + datetime alignment** of original vs emulated signals
+- **Resampling & interpolation** to common index
+- **Optimal lag estimation** (scalar optimization + xcorr baseline)
+- **Failure modes**:
+  - signal existence
+  - **time-delta / sample-rate** differences
+  - amplitude offset/factor/cutoff (configurable thresholds)
+- **Publication-quality plots** for reviews and reports
+- Minimal **CLI** and example notebook
+
+## 🧩 Signals (typical)
+`VOLTAGE, CURRENT, MILEAGE, SPEED, IGNITION, SOC_DISPLAY, SOC_REAL`
+
+
 ## 📁 Project Structure
 ev-soh-signal-validation/
 ├─ src/
